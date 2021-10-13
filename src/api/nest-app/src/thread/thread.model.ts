@@ -7,6 +7,7 @@ export class Thread {
         public url: string,
         public location: string,
         public subject: string,
+        public testItem: string,
         public comments: Array<string>,
     ) {}
 }
